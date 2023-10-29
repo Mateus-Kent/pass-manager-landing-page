@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
  }
+ 
+body {
+  overflow-x: hidden;
+ }
 
  header {
   width: 100vw;
@@ -43,6 +47,7 @@
   font-size: 12px;
   font-weight: 900;
   border: none;
+  cursor: pointer;
  }
 
  main {
@@ -86,6 +91,7 @@
   font-size: 12px;
   font-weight: 900;
   margin-right: 56px;
+  cursor: pointer;
 }
 
 
@@ -98,6 +104,7 @@
   color: #ffffff; 
   font-size: 12px;
   font-weight: 900;
+  cursor: pointer;
 }
 
 span {
@@ -166,6 +173,7 @@ span {
   color: #075985;
   border-radius: 34px;
   border: 1px solid #075985;
+  cursor: pointer;
 }
 
 
@@ -232,6 +240,7 @@ span {
   background-color: #fff;
   border-radius: 34px;
   border: 1px solid #075985;
+  cursor: pointer;
 }
 
 
@@ -320,6 +329,7 @@ span {
   background-color: #075985;
   border-radius: 34px;
   border: none;
+  cursor: pointer;
 }
 
 
