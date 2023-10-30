@@ -26,7 +26,7 @@ body {
  }
 
  .title p {
-  font-size: 16;
+  font-size: 1.000em;
   font-weight: bold;
  }
 
@@ -44,7 +44,7 @@ body {
   background-color: #075985;
   border-radius: 34px;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.750em;
   font-weight: 900;
   border: none;
   cursor: pointer;
@@ -64,13 +64,13 @@ body {
  }
 
  .apresentation h1 {
-  font-size: 40px;
+  font-size: 2.500em;
   font-weight: 900;
   margin-bottom: 24px;
  }
 
  .apresentation p {
-  font-size: 20px;
+  font-size: 1.250em;
   font-weight: 500;
   margin-bottom: 38px;
  }
@@ -88,7 +88,7 @@ body {
   border: none;
   background-color: #075985; 
   color: #ffffff; 
-  font-size: 12px;
+  font-size: 1.000em;
   font-weight: 900;
   margin-right: 56px;
   cursor: pointer;
@@ -102,13 +102,13 @@ body {
   border: none;
   background-color: #575758; 
   color: #ffffff; 
-  font-size: 12px;
+  font-size: 1.000em;
   font-weight: 900;
   cursor: pointer;
 }
 
 span {
-  font-size: 12px;
+  font-size: 1.000em;
   color: rgba(0, 0, 0, 0.6)
 }
 
@@ -148,19 +148,19 @@ span {
 
 .explication-selling p:nth-child(1) {
   margin-top: 88px;
-  font-size: 20px;
+  font-size: 1.250em;
   color: #075985;
   font-weight: bold;
   margin-bottom: 18px;
 }
 
 .explication-selling h1 {
-  font-size: 24px;
+  font-size: 1.500em;
   margin-bottom: 26px;
 }
 
 .explication-selling p:nth-child(2) {
-  font-size: 20px;
+  font-size: 1.250em;
   color: #000;
   font-weight: 500;
 }
@@ -189,7 +189,7 @@ span {
 
 .plans h1 {
   margin-top: 84px;
-  font-size: 36px;
+  font-size: 2.250em;
   font-weight: 900;
 }
 
@@ -215,17 +215,17 @@ span {
 }
 
 .free-plan-pricing h3 {
-  font-size: 24px;
+  font-size: 1.500em;
 }
 
 .free-plan-pricing p:nth-child(1) {
-  font-size: 16px;
+  font-size: 1.000em;
   font-weight: 500;
 }
 
 .free-plan-pricing h2 {
   margin-top: 29px;
-  font-size: 36px;
+  font-size: 2.250em;
   font-weight: 900;
   margin-bottom: 16px;
 }
@@ -235,7 +235,7 @@ span {
   width: 297px;
   height: 35px;
   color: #075985;
-  font-size: 12px;
+  font-size: 0.750em;
   font-weight: bold;
   background-color: #fff;
   border-radius: 34px;
@@ -246,7 +246,7 @@ span {
 
 .free-plan-pricing p:nth-child(5) {
   margin-top: 20px;
-  font-size: 10px;
+  font-size: 0.625em;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -270,7 +270,7 @@ span {
 }
 
 .element-plan p {
- font-size: 12px;
+ font-size: 0.750em;
  font-weight: 500;
 }
 
@@ -292,7 +292,7 @@ span {
 }
 
 .better-pricing p {
-  font-size: 12px;
+  font-size: 0.750em;
   color: #fff;
   font-weight: 900;
 }
@@ -304,17 +304,17 @@ span {
 }
 
 .premium-plan-pricing h3 {
-  font-size: 24px;
+  font-size: 1.500em;
 }
 
 .premium-plan-pricing p:nth-child(1) {
-  font-size: 16px;
+  font-size: 1.000em;
   font-weight: 500;
 }
 
 .premium-plan-pricing h2 {
   margin-top: 29px;
-  font-size: 36px;
+  font-size: 2.250em;
   font-weight: 900;
   margin-bottom: 16px;
 }
@@ -324,7 +324,7 @@ span {
   width: 297px;
   height: 35px;
   color: #fff;
-  font-size: 12px;
+  font-size: 0.750em;
   font-weight: bold;
   background-color: #075985;
   border-radius: 34px;
@@ -335,7 +335,7 @@ span {
 
 .premium-plan-pricing p:nth-child(5) {
   margin-top: 15px;
-  font-size: 10px;
+  font-size: 0.625em;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
@@ -352,29 +352,57 @@ span {
 
 footer {
   width: 100vw;
-  height: 200px;
+  height: 148px;
   background-color: #075985;
-  padding-left: 138px;
   display: flex;
-  flex-direction: column;
+  color: #fff;
+}
+
+.contact {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-footer p {
-  color: #fff;
-  font-weight: bold;
-  font-size: 18px;
+.contact p {
+  font-size: 1.000em; 
+  font-weight: 700;
 }
 
-footer .email {
+.contact .links {
   display: flex;
+  padding-left: 12px;
 }
 
-footer .email img {
-  margin-right: 10px;
+.contact .links img {
+  cursor: pointer;
 }
 
+.copyright {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fecap {
+  height: 100%;
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fecap p {
+  margin-right: 12px;
+}
+
+.fecap img {
+  cursor: pointer;
+}
 
 
 
